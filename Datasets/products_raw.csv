@@ -1,0 +1,85 @@
+product_id,product_name,category,sub_category,unit_cost,unit_price,supplier_id
+P0001,Footwear Item 1,apparel,FOOTWEAR,8709.33,13273.03,SUP004
+P0002,Skincare Item 2,personal care,Skincare,2692.75,3282.4,SUP006
+P0003,Men Item 3,APPAREL,men,12856.38,15821.97,SUP008
+P0004,Audio Item 4,Electronics,Audio,11389.87,16170.45,SUP007
+P0005,Staples Item 5,grocery,  Staples  ,10805.97,16679.59,SUP009
+P0006,Cookware Item 6,Home & Kitchen,  Cookware  ,6509.79,8061.7,SUP010
+P0007,Laptops Item 7,  Electronics  ,Laptops,-471.3797383993997,12159.13,SUP005
+P0008,Dairy Item 8,Grocery,Dairy,8782.26,13171.92,SUP010
+P0009,Laptops Item 9,Electronics,  Laptops  ,9765.21,15500.53,SUP004
+P0010,Appliances Item 10,Home & Kitchen,appliances,1312.44,1805.04,SUP012
+P0011,Snacks Item 11,GROCERY,Snacks,6266.32,7612.04,SUP007
+P0012,Men Item 12,apparel,men,672.13,777.16,SUP009
+P0013,Kids Item 13,APPAREL,Kids,7435.16,9318.82,SUP011
+P0014,Snacks Item 14,grocery,SNACKS,4981.43,6024.14,SUP010
+P0015,Cookware Item 15,HOME & KITCHEN,cookware,2210.64,3216.36,SUP011
+P0016,Wellness Item 16,Personal Care,  Wellness  ,1595.87,1922.74,
+P0017,Snacks Item 17,GROCERY,Snacks,8835.29,12173.69,SUP001
+P0018,Laptops Item 18,Electronics,LAPTOPS,2600.36,3802.81,SUP006
+P0019,Haircare Item 19,personal care,Haircare,13880.55,19592.43,SUP003
+P0020,Appliances Item 20,Home & Kitchen,Appliances,8736.86,10832.82,SUP011
+P0021,Cookware Item 21,Home & Kitchen,Cookware,5235.7,7915.62,SUP003
+P0022,Laptops Item 22,ELECTRONICS,Laptops,8884.19,13076.93,SUP003
+P0023,Men Item 23,Apparel,Men,,579.56,SUP003
+P0024,Appliances Item 24,Home & Kitchen,appliances,14380.46,17385.63,SUP008
+P0025,Skincare Item 25,Personal Care,skincare,7260.44,8753.83,SUP007
+P0026,Staples Item 26,  Grocery  ,STAPLES,11751.89,18419.95,SUP012
+P0027,Skincare Item 27,PERSONAL CARE,SKINCARE,1286.81,1710.05,SUP005
+P0028,Wellness Item 28,PERSONAL CARE,WELLNESS,7325.54,9416.45,SUP004
+P0029,Kids Item 29,Apparel,Kids,7386.07,10117.9,SUP001
+P0030,Hygiene Item 30,  Personal Care  ,Hygiene,14070.51,20378.16,SUP001
+P0031,Women Item 31,APPAREL,WOMEN,8597.33,13584.04,SUP005
+P0032,Kids Item 32,Apparel,Kids,7128.67,9116.86,SUP012
+P0033,Furniture Item 33,Home & Kitchen,furniture,4041.29,6329.32,SUP007
+P0034,Cookware Item 34,  Home & Kitchen  ,  Cookware  ,5006.96,5814.02,SUP011
+P0035,Accessories Item 35,electronics,Accessories,7834.05,10966.41,SUP002
+P0036,Wellness Item 36,personal care,wellness,6611.73,9489.74,SUP002
+P0037,Mobiles Item 37,ELECTRONICS,Mobiles,373.1,446.84,SUP011
+P0038,Haircare Item 38,PERSONAL CARE,haircare,12403.06,15046.81,SUP002
+P0039,Accessories Item 39,Electronics,Accessories,13447.6,18000.98,SUP001
+P0040,Appliances Item 40,home & kitchen,Appliances,2146.72,3402.13,SUP005
+P0041,Appliances Item 41,  Home & Kitchen  ,APPLIANCES,8332.84,11817.79,SUP012
+P0042,Furniture Item 42,home & kitchen,FURNITURE,1673.21,2626.71,SUP009
+P0043,Appliances Item 43,Home & Kitchen,appliances,10099.99,15270.81,SUP002
+P0044,Staples Item 44,GROCERY,Staples,4254.45,5787.42,SUP011
+P0045,Appliances Item 45,home & kitchen,Appliances,9908.37,14893.7,SUP011
+P0046,Kids Item 46,APPAREL,Kids,10918.57,12643.99,SUP010
+P0047,Decor Item 47,HOME & KITCHEN,DECOR,11541.28,13839.32,
+P0048,Snacks Item 48,Grocery,Snacks,1660.73,2529.7,SUP003
+P0049,Beverages Item 49,Grocery,Beverages,13744.38,20734.33,SUP012
+P0050,Dairy Item 50,grocery,Dairy,3491.7,4381.0,SUP004
+P0051,Staples Item 51,  Grocery  ,  Staples  ,-471.3797383993997,846.25,SUP010
+P0052,Laptops Item 52,Electronics,Laptops,8345.04,11872.55,SUP007
+P0053,Mobiles Item 53,electronics,MOBILES,5595.29,8619.45,SUP010
+P0054,Women Item 54,  Apparel  ,WOMEN,12455.36,17704.03,SUP008
+P0055,Audio Item 55,Electronics,AUDIO,12133.36,16206.01,SUP008
+P0056,Beverages Item 56,grocery,BEVERAGES,4791.23,6316.68,SUP008
+P0057,Cookware Item 57,  Home & Kitchen  ,COOKWARE,14295.85,19179.98,SUP010
+P0058,Appliances Item 58,Home & Kitchen,APPLIANCES,4399.22,6349.7,SUP009
+P0059,Snacks Item 59,Grocery,  Snacks  ,7750.1,11938.03,SUP002
+P0060,Haircare Item 60,PERSONAL CARE,HAIRCARE,3876.68,5250.01,
+P0061,Beverages Item 61,Grocery,  Beverages  ,14043.85,17716.71,SUP007
+P0062,Audio Item 62,ELECTRONICS,AUDIO,-471.3797383993997,3154.93,SUP004
+P0063,Cookware Item 63,Home & Kitchen,Cookware,721.41,1071.8,SUP007
+P0064,Beverages Item 64,Grocery,BEVERAGES,6554.7,9946.47,SUP012
+P0065,Cookware Item 65,HOME & KITCHEN,cookware,14886.01,17824.14,SUP011
+P0066,Beverages Item 66,grocery,Beverages,13380.58,15788.44,SUP011
+P0067,Snacks Item 67,Grocery,  Snacks  ,11241.69,15935.04,SUP006
+P0068,Audio Item 68,ELECTRONICS,Audio,13367.35,16251.73,SUP010
+P0069,Beverages Item 69,Grocery,Beverages,13407.03,20393.42,SUP005
+P0070,Decor Item 70,Home & Kitchen,Decor,7806.93,10068.21,SUP009
+P0071,Women Item 71,  Apparel  ,WOMEN,4773.14,5798.14,SUP008
+P0072,Furniture Item 72,Home & Kitchen,  Furniture  ,11591.59,18134.31,SUP003
+P0073,Mobiles Item 73,ELECTRONICS,MOBILES,9941.84,12173.68,SUP004
+P0074,Women Item 74,APPAREL,Women,5636.18,7203.74,SUP001
+P0075,Dairy Item 75,grocery,Dairy,1462.28,1782.7,SUP002
+P0076,Skincare Item 76,PERSONAL CARE,Skincare,11214.5,13479.5,SUP006
+P0077,Women Item 77,apparel,WOMEN,3973.78,4607.66,SUP006
+P0078,Kids Item 78,Apparel,kids,14055.36,16514.04,SUP002
+P0079,Staples Item 79,  Grocery  ,staples,3652.51,4487.43,SUP006
+P0080,Hygiene Item 80,personal care,HYGIENE,1885.23,2213.3,SUP008
+P0064,Beverages Item 64,Grocery,BEVERAGES,6554.7,9946.47,SUP012
+P0028,Wellness Item 28,PERSONAL CARE,WELLNESS,7325.54,9416.45,SUP004
+P0032,Kids Item 32,Apparel,Kids,7128.67,9116.86,SUP012
+P0070,Decor Item 70,Home & Kitchen,Decor,7806.93,10068.21,SUP009

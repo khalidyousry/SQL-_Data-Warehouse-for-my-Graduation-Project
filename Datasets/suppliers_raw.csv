@@ -1,0 +1,13 @@
+supplier_id,supplier_name,country,lead_time_days,reliability_score
+SUP001,India Supplier 1,Bangladesh,,0.91
+SUP002,Bangladesh Supplier 2,Bangladesh,-1.0,0.83
+SUP003,USA Supplier 3,Bangladesh,21.0,0.88
+SUP004,Germany Supplier 4,BANGLADESH,37.0,0.71
+SUP005,Germany Supplier 5,germany,26.0,0.98
+SUP006,Thailand Supplier 6,India,22.0,0.94
+SUP007,India Supplier 7,BANGLADESH,23.0,0.89
+SUP008,USA Supplier 8,Germany,14.0,0.64
+SUP009,China Supplier 9,Germany,,0.76
+SUP010,India Supplier 10,vietnam,27.0,0.57
+SUP011,Germany Supplier 11,china,-1.0,0.62
+SUP012,Thailand Supplier 12,THAILAND,7.0,

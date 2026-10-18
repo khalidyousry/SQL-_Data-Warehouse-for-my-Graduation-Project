@@ -1,0 +1,6 @@
+warehouse_id,warehouse_name,location,capacity
+WH01,  Ahmedabad DC  ,"Ahmedabad, Gujarat",75351
+WH02,Mumbai DC,"Mumbai, Maharashtra",64685
+WH03,bengaluru dc,"Bengaluru, Karnataka",41998
+WH04,  Delhi NCR DC  ,Delhi NCR,78050
+WH05,CHENNAI DC,"Chennai, Tamil Nadu",44651
