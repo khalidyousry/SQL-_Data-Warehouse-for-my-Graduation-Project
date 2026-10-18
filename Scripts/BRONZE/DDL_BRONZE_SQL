@@ -1,0 +1,92 @@
+USE FMCG_Datawarehouse;
+GO
+
+/* ========== 0) Schema ========== */
+IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'BRONZE')
+    EXEC('CREATE SCHEMA BRONZE');
+GO
+
+/* ========== 1) DROP + CREATE ========== */
+DROP TABLE IF EXISTS BRONZE.ERP_Suppliers;
+CREATE TABLE BRONZE.ERP_Suppliers (
+    supplier_id        VARCHAR(50),
+    supplier_name      VARCHAR(100),
+    country            VARCHAR(100),
+    lead_time          VARCHAR(50),
+    reliability_score  VARCHAR(50)
+);
+GO
+
+DROP TABLE IF EXISTS BRONZE.ERP_Products;
+GO
+
+CREATE TABLE BRONZE.ERP_Products (
+    product_id     VARCHAR(50),
+    product_name   VARCHAR(200),
+    category       VARCHAR(100),
+    sub_category   VARCHAR(100),
+    unit_cost      VARCHAR(50),
+    unit_price     VARCHAR(50),
+    supplier_id    VARCHAR(50)
+);
+GO
+
+DROP TABLE IF EXISTS BRONZE.ERP_Inventory;
+CREATE TABLE BRONZE.ERP_Inventory (
+    inventory_id   VARCHAR(50),
+    product_id     VARCHAR(50),
+    warehouse_id   VARCHAR(50),
+    [date]         VARCHAR(50),
+    stock_on_hand  VARCHAR(50),
+    reorder_point  VARCHAR(50),
+    safety_stock   VARCHAR(50)
+);
+GO
+
+DROP TABLE IF EXISTS BRONZE.ERP_Warehouse;
+CREATE TABLE BRONZE.ERP_Warehouse (
+    warehouse_id    VARCHAR(50),
+    warehouse_name  VARCHAR(100),
+    location        VARCHAR(100),
+    capacity        VARCHAR(50)
+);
+GO
+
+DROP TABLE IF EXISTS BRONZE.ERP_purchase_orders;
+CREATE TABLE BRONZE.ERP_purchase_orders (
+    po_id                   VARCHAR(50),
+    product_id              VARCHAR(50),
+    supplier_id             VARCHAR(50),
+    warehouse_id            VARCHAR(50),
+    order_date              VARCHAR(50),
+    expected_delivery_date  VARCHAR(50),
+    actual_delivery_date    VARCHAR(50),
+    quantity_ordered        VARCHAR(50),
+    quantity_received       VARCHAR(50),
+    status                  VARCHAR(100)
+);
+GO
+
+DROP TABLE IF EXISTS BRONZE.ERP_Returns;
+CREATE TABLE BRONZE.ERP_Returns (
+    return_id    VARCHAR(50),
+    order_id     VARCHAR(50),
+    product_id   VARCHAR(50),
+    return_date  VARCHAR(50),
+    reason       VARCHAR(100),
+    quantity     VARCHAR(50)
+);
+GO
+
+DROP TABLE IF EXISTS BRONZE.ERP_sales_orders;
+CREATE TABLE BRONZE.ERP_sales_orders (
+    order_id      VARCHAR(50),
+    product_id    VARCHAR(50),
+    warehouse_id  VARCHAR(50),
+    customer_id   VARCHAR(50),
+    order_date    VARCHAR(50),
+    ship_date     VARCHAR(50),
+    delivery_date VARCHAR(50),
+    quantity      VARCHAR(50),
+    status        VARCHAR(100)
+);
